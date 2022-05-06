@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#navigation{
+    display: flex;
+    margin: 20px;
+    padding-bottom: 30px;
+}
+ul{
+    display: flex;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+button{
+    padding: 10px;
+    background-color: black;
+}

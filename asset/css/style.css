@@ -2,20 +2,75 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
+section{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+/* Navigation styling */
 #navigation{
     display: flex;
-    margin: 20px;
     padding-bottom: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+
 }
+    
+
+
 ul{
     display: flex;
+    float: right;
+    margin-top: 50px;
 }
 li{
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 30px;
+    
 }
-button{
-    padding: 10px;
+#login{
+    padding: 5px, 5px;
+    background-color: yellow;
+    border: none;
+    margin-right: 30px;
+    padding: 3px;
+}
+#login2{
+
+    padding: 5px, 5px;
     background-color: black;
+    color: yellow;
+    border: none;
+    margin-right: 30px;
+    padding: 3px;
+    
+}
+a{
+    color: white;
+    font-size: 15px;
+    margin-top: 0;
+}
+.text h1{
+    color: yellow;
+    font-size: 50px;
+    margin-top: 15%;
+    padding-bottom: 60px ;
+}
+.text > p{
+    color: white;
+    font-size: 30px;
+}
+/* background image */
+body{
+    background-image: url("/asset/images/moving 1.png");
+    background-position: center;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

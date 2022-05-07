@@ -8,12 +8,10 @@ section{
     display: flex;
     justify-content: space-between;
 }
-.container{
-    width: 1100px;
-    margin: 0 auto;
-}
+
+
 /* Navigation styling */
-#navigation{
+#Navigation{
     display: flex;
     padding-bottom: 30px;
     align-items: center;
@@ -73,4 +71,47 @@ body{
     height: 60vh;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/* hero section */
+.hero_section{ 
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    justify-content: space-between;
+    position: relative;
+    right: 20px;
+
+}
+.hero_container{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    padding-top: 30px;
+    position: relative;
+    float: right;
+
+
+}
+
+   
+.hero_text{
+    padding-top: 60px;
+    line-height: 1.5;
+    float: right;
+    display: inline;
+    
+
+}
+img{
+    padding: auto;
+    width: 400px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    justify-content: space-around;
+}
+.hero_button{
+    color:  #FFAC12;
 }

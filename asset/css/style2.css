@@ -13,7 +13,7 @@
 }
 #NAV{
     box-sizing: border-box;
-    background-color: brown;
+    background-image: linear-gradient(black, yellow);
     width: 1300px;
     height: 200px;
     margin-top: 0;
@@ -132,9 +132,7 @@ hr{
     background-color: white;
 }
 /* feartures styling */
-#features{
-    background-color: purple;
-}
+
 h3{
     padding-bottom: 30px;
 }
@@ -144,9 +142,35 @@ hr{
 
 #feature_list{
     display: inline;
-    background-color: red;
 
 }
 .list11{
     display: block;
+}
+/* imagess */
+.listing_images{
+    display: block;
+}
+/* footer */
+.container_footer{
+    background-image: linear-gradient(to right, black , yellow);
+    margin-top: 800px;
+    width: 1300px;
+    height: 300px;
+    box-sizing: border-box;
+}
+hr{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.text1{
+    margin-top: 50px;
+    color: white;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.wrapper{
+    margin-top: 200px;
+
 }

@@ -141,7 +141,6 @@ hr{
 }
 .all_cards{
     display: flex;
-    background-color: #FFAC12;
     height: 600px;
     width: 1200px;
     object-fit: fill;
@@ -208,3 +207,5 @@ hr{
     margin-top: 200px;
 
 }
+
+

@@ -7,7 +7,6 @@
     display: flex;
     padding-bottom: 30px;
     margin: 20px;
-    background-color: blue;
 
 
 }
@@ -20,9 +19,6 @@
     padding: 0;
 
 }
-    .navigation{
-        background-color: red;
-    }
 
 
 .links{
@@ -148,8 +144,13 @@ hr{
     display: block;
 }
 /* imagess */
+.listing{
+    display: block;
+    flex-direction: row;
+}
 .listing_images{
     display: block;
+    flex-direction: row;
 }
 /* footer */
 .container_footer{

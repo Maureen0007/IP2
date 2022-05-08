@@ -136,6 +136,7 @@ hr{
 .movers{
     box-sizing: border-box;
     padding: 0;
+    width: 500px;
 }
 .all_cards{
     display: flex;
@@ -150,10 +151,16 @@ hr{
     width: 500px; 
     height: 300px;
     margin: 10px;
+    margin-right: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     
 
+}
+.container.card{
+    margin: 0;
+    padding: 0;
+    background-color: rebeccapurple;
 }
 
 h4{

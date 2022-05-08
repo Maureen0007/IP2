@@ -174,3 +174,23 @@ hr{
     margin-top: 200px;
 
 }
+#footer_btn{
+    
+    color:  black;
+    background-color: #FFAC12;
+    padding: 10px;
+    margin: 30px;
+    border-top-right-radius: 20px;
+    float: right;
+    margin-top: 10px;
+
+
+}
+.icons2{
+    color: white;
+    margin-left: 60px;
+
+}
+.grid{
+    color: white;
+}

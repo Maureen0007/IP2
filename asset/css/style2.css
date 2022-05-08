@@ -158,6 +158,7 @@ hr{
     width: 1300px;
     height: 300px;
     box-sizing: border-box;
+    padding-top: 0%;
 }
 hr{
     margin-top: 50px;

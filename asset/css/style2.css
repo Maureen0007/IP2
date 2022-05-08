@@ -145,8 +145,12 @@ hr{
 }
 /* imagess */
 .listing{
-    display: block;
+    display: inline-block;
+    flex: right;
+
     flex-direction: row;
+
+
 }
 .listing_images{
     display: block;

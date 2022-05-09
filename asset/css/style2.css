@@ -150,11 +150,14 @@ hr{
 
     flex-direction: row;
 
-
 }
 .listing_images{
-    display: block;
+    display: flex;
     flex-direction: row;
+}
+
+.list-card{
+    display: grid;
 }
 /* footer */
 .container_footer{

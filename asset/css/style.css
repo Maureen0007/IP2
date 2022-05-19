@@ -71,7 +71,7 @@ a{
 }
 /* background image */
 body{
-    background-image: url("/asset/images/moving 1.png");
+    background-image: url(../images/moving\ 1.png);
     background-position: center;
     height: 60vh;
     background-size: cover;

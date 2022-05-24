@@ -37,7 +37,7 @@ a{
 
 body{
     font-family: Actor;
-    background-color: bisque;
+    background-color: rgb(160, 151, 151);
 }
 #work{
     width: 120px;
@@ -114,12 +114,12 @@ form{
 }
 /* Description styling */
 #Description{
-    margin-top: 15%;
+    margin-top: 10%;
 }
 .description_text{
     margin-top: 10%;
     width: 700px;
-    height: 600px;
+    height: 500px;
     background-color: white;
     margin: 30px;
     border-radius: 20px;
@@ -132,14 +132,23 @@ form{
 /* feartures styling */
 
 h3{
+    margin: 30px;
     padding-bottom: 30px;
+    margin-top: 5%;
+    
 }
-hr{
-    width: fit-content;
+#features{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px black;
+    margin: 30px;
 }
 
-#feature_list{
+.feature_list{
     display: inline;
+
 
 }
 .list11{

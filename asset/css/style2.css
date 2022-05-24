@@ -81,10 +81,11 @@ form{
     margin-right: 250px;
     
 }
-.button2{
+#moversbtn{
     background-color: black;
     color: white;
 }
+/* image section */
 .property_images{
     display: flex;
     float: left;

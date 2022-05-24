@@ -5,72 +5,6 @@
 
 }
 body{
-    font-family: Poppins,  Actor, Adamina;
-
-}
-section{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-/* Navigation styling */
-#Navigation{
-    display: flex;
-    padding-bottom: 30px;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px;
-
-}
-    
-
-
-ul{
-    display: flex;
-    float: right;
-    margin-top: 50px;
-}
-li{
-    display: inline-block;
-    margin-right: 30px;
-    
-}
-#login{
-    padding: 5px, 5px;
-    background-color: yellow;
-    border: none;
-    margin-right: 30px;
-    padding: 3px;
-}
-#login2{
-
-    padding: 5px, 5px;
-    background-color: black;
-    color: yellow;
-    border: none;
-    margin-right: 30px;
-    padding: 3px;
-    
-}
-a{
-    color: white;
-    font-size: 15px;
-    margin-top: 0;
-}
-.text h1{
-    color: yellow;
-    font-size: 50px;
-    margin-top: 15%;
-    padding-bottom: 60px ;
-    font-weight: 100;
-}
-.text > p{
-    color: white;
-    font-size: 30px;
-}
-/* background image */
-body{
     background-image: url(../images/moving\ 1.png);
     background-position: center;
     height: 60vh;
@@ -78,7 +12,43 @@ body{
     background-repeat: no-repeat;
     overflow-x: hidden;
 }
+/* navigation */
+#Navigation{
+    display: flex;
+    gap: 100px;
+}
+.navigation_links{
+    width: 100%;
+    height: 200px;
+    margin: 40px;
+    
+}
+.navigation_links ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
 
+li{
+    display: inline-block;
+    
+}
+.text{
+    width: 100%;
+    height: 300px;
+    margin-top: 15%;
+    margin-left: 10%;
+    
+}
+.text h1{
+    font-weight: 900;
+    font-size: 45px;
+    color: #FFAC12;
+}
+.text p{
+    font-size: 20px;
+    color: white;
+}
 /* hero section */
 .hero_section{ 
     justify-content: space-between;

@@ -107,19 +107,14 @@ hr{
 
 }
 /* top movers section */
-.movers{
-    box-sizing: border-box;
-    padding: 0;
-    width: 500px;
+#movers h2{
+    margin-left: 30px;
+    font-size: 40px;
 }
-.all_cards{
-    display: flex;
-    height: 600px;
-    width: 1200px;
-    object-fit: fill;
-    
-    
 
+.card1, .card2{
+    display: flex;
+    margin-left: 30px;
 }
 .card_container{
     padding: 10px; 

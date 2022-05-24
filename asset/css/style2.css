@@ -3,45 +3,41 @@
     font-family: Actor;
 }
 /* navigation styling */
-#Navigation{
-    display: flex;
-    padding-bottom: 30px;
-    margin: 20px;
 
-
-}
 #NAV{
-    box-sizing: border-box;
-    background-image: linear-gradient(black, yellow);
+    background-image: linear-gradient(black, rgb(73, 73, 20));
     width: 1300px;
-    height: 200px;
-    margin-top: 0;
-    padding: 0;
-
+    height: 300px;
 }
-
-
-.links{
-    display: flex;
+.navigation_links{
+    margin: 40px;
+    margin-left: 100px;
+}
+ul{
     float: right;
-    margin-top: 50px;
 }
+
+
+
 li{
     display: inline-block;
     margin-right: 30px;
-    
-}a{
-    color: black;
+}
+a{
+    color: white;
     font-size: 15px;
     margin-top: 0;
+    text-decoration: none;
+   
 }
 
 body{
     font-family: Actor;
     background-color: bisque;
 }
-
 #work{
+    width: 120px;
+    height: 40px;
     padding: 10px, 5px;
     background-color: yellow;
     border: none;
